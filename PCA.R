@@ -22,9 +22,6 @@ pca = preProcess(x = training_set[,-14],
                  method = "pca",
                  pcaComp = 2)
 training_set_pca = predict(pca, training_set)
-pca = preProcess(x = test_set[,-14],
-                 method = "pca",
-                 pcaComp = 2)
 test_set_pca = predict(pca, test_set)
 
 #move the customer_segment to the last 
