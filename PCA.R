@@ -3,7 +3,7 @@ library(caret) #to build principal components
 library(e1071) #to build svm classifier
 
 #read data
-setwd('C:\\Venkat\\Github\\PCA')
+#setwd('Pick the folder that contains the Wine.csv file')
 dataset = read.csv('Wine.csv')
 
 #split dataset into training and test set
